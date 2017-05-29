@@ -1,4 +1,4 @@
-package br.com.exercicio.oo;
+package br.com.exercicio.oo.construtores;
 
 public class TesteSalario {
 
