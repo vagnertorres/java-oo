@@ -1,4 +1,4 @@
-package br.com.exercicio.heranca;
+package br.com.exercicio.oo.heranca;
 
 public class Professor extends Pessoa {
 		

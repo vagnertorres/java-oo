@@ -1,4 +1,4 @@
-package br.com.exercicio.heranca;
+package br.com.exercicio.oo.heranca;
 
 public class Pessoa {
 	
@@ -7,6 +7,18 @@ public class Pessoa {
 	private String telefone;
 	private String cpf;
 	private String telefoneCelular;
+	
+	public Pessoa() { }
+	
+	public Pessoa(String nome, String endereco, String telefone, String cpf, String telefoneCelular) {
+		
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = endereco;
+		this.cpf = cpf;
+		this.telefoneCelular = telefoneCelular;
+	}
 
 	public String getNome() {
 		

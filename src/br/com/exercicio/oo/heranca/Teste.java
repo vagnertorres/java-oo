@@ -1,10 +1,10 @@
-package br.com.exercicio.heranca;
+package br.com.exercicio.oo.heranca;
 
 public class Teste {
 
 	public static void main(String[] args) {
 		
-		Aluno aluno = new Aluno();
+		Aluno aluno = new Aluno("vagner", "rua", "123", "123", "123");
 		
 		Professor professor = new Professor();
 		
