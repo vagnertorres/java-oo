@@ -1,4 +1,4 @@
-package br.com.exercicio.oo.polimorfismo;
+package br.com.exercicio.classe.abstrata;
 
 public class Aluno extends Pessoa {
 	
@@ -51,7 +51,11 @@ public class Aluno extends Pessoa {
 		
 		return s;
 	}
-	
-	
-	
+
+	@Override
+	public void imprimirEtiquetaEndereco() {
+		
+		System.out.println(this.obterEtiquetaEndereco());
+		
+	}	
 }
