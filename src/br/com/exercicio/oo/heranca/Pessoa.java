@@ -69,5 +69,4 @@ public class Pessoa {
 		
 		this.telefoneCelular = telefoneCelular;
 	}
-
 }

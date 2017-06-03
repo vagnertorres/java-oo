@@ -29,7 +29,4 @@ public class Professor extends Pessoa {
 		
 		return 0.0;
 	}
-	
-	
-
 }

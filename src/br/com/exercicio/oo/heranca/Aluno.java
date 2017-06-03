@@ -2,7 +2,6 @@ package br.com.exercicio.oo.heranca;
 
 public class Aluno extends Pessoa {
 	
-	
 	private String curso;
 	private String[] notas;
 
