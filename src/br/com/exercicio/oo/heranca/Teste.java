@@ -5,11 +5,7 @@ public class Teste {
 	public static void main(String[] args) {
 		
 		Aluno aluno = new Aluno("vagner", "rua", "123", "123", "123");
-		
-		Professor professor = new Professor();
-		
-		Pessoa pessoa = new Pessoa();
-		
+	
 		aluno.setNome("Vagner");
 		System.out.println(aluno.getNome());
 		
