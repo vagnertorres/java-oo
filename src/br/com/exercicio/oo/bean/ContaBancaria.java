@@ -31,12 +31,4 @@ public class ContaBancaria implements java.io.Serializable {
 	public void setNumeroConta(String numeroConta) {
 		this.numeroConta = numeroConta;
 	}	
-	
-	public void sacar(double valor) {
-		this.saldo -= valor;
-	}
-	
-	public void depositar(double valor) {
-		this.saldo += valor;
-	}
 }
