@@ -1,10 +1,10 @@
 package br.com.exercicio.oo.bean;
 
-public abstract class ContaBancaria implements java.io.Serializable {
+public class ContaBancaria implements java.io.Serializable {
 	
-	public double saldo;
-	public int agencia;
-	public String numeroConta;
+	private double saldo;
+	private int agencia;
+	private String numeroConta;
 	
 	public ContaBancaria() {}
 	
